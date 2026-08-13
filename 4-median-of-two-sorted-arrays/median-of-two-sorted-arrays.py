@@ -21,6 +21,6 @@ class Solution:
         n=len(result)
 
         if n%2==1:
-            return (result[n // 2])
+            return float(result[n // 2])
         else:
             return (result[n // 2] + result[n // 2 - 1]) / 2
